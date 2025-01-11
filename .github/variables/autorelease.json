@@ -1,0 +1,16 @@
+{
+  "variables": [
+    {
+      "name": "prefix",
+      "value": "NeverSink's itemfilter - version "
+    },
+    {
+      "name": "version",
+      "value": "0.5.0"
+    },
+    {
+      "name": "suffix",
+      "value": "Initial Public Version"
+    }
+  ]
+}
