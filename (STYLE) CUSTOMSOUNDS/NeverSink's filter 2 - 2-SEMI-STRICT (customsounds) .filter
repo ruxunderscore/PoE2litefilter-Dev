@@ -687,7 +687,6 @@ Show # %D4 $type->endgame->normalcraft->any $tier->craftingwands
 	Corrupted False
 	ItemLevel >= 81
 	Rarity Normal Magic
-	Class == "Sceptres"
 	BaseType == "Attuned Wand" "Siphoning Wand"
 	SetBorderColor 122 87 0
 

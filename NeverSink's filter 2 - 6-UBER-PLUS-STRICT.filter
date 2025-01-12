@@ -685,7 +685,6 @@ Show # $type->endgame->normalcraft->decorator $tier->normaldecoratorjwlry
 #	Corrupted False
 #	ItemLevel >= 81
 #	Rarity Normal Magic
-#	Class == "Sceptres"
 #	BaseType == "Attuned Wand" "Siphoning Wand"
 #	SetBorderColor 122 87 0
 
