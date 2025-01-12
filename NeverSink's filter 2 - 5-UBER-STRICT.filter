@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.5.0
+# VERSION:  0.5.1
 # TYPE:     5-UBER-STRICT
 # STYLE:    DEFAULT
 # AUTHOR:   NeverSink
@@ -38,7 +38,7 @@
 #------------------------------------
 # For feedback, questions and suggestions please join our discord!
 #
-# DISCORD: https://discord.gg/mye6xhF
+# DISCORD: https://discord.gg/zFEx92a
 # TWITTER: @NeverSinkDev
 # TWITCH:  https://www.twitch.tv/neversink
 # GITHUB:  NeverSinkDev
@@ -261,7 +261,7 @@ Show # $type->chancing $tier->any
 	Mirrored False
 	Corrupted False
 	Rarity Normal
-	BaseType == "Emerald Ring" "Heavy Belt" "Sapphire Ring" "Stellar Amulet"
+	BaseType == "Heavy Belt" "Sapphire Ring" "Stellar Amulet"
 	SetFontSize 40
 	SetBorderColor 0 200 95
 	PlayAlertSound 3 300
@@ -682,6 +682,15 @@ Show # $type->endgame->normalcraft->decorator $tier->normaldecoratorjwlry
 #	Class == "Sceptres"
 #	SetBorderColor 122 87 0
 
+#Show # %D4 $type->endgame->normalcraft->any $tier->craftingwands
+#	Mirrored False
+#	Corrupted False
+#	ItemLevel >= 81
+#	Rarity Normal Magic
+#	Class == "Sceptres"
+#	BaseType == "Attuned Wand" "Siphoning Wand"
+#	SetBorderColor 122 87 0
+
 #------------------------------------
 #   [0805] Normal, Magic Crafting: Endgame Progression
 #------------------------------------
@@ -789,7 +798,7 @@ Show # %D5 $type->endgame->jewellery $tier->beltst1ideallevel
 	ItemLevel >= 82
 	Rarity Normal Magic
 	Class == "Belts"
-	BaseType == "Plate Belt"
+	BaseType == "Plate Belt" "Utility Belt"
 	AreaLevel >= 65
 	SetFontSize 40
 	SetBackgroundColor 30 0 70 255
@@ -800,7 +809,7 @@ Show # %D5 $type->endgame->jewellery $tier->beltst2ideallevel
 	ItemLevel >= 82
 	Rarity Normal Magic
 	Class == "Belts"
-	BaseType == "Double Belt" "Fine Belt" "Heavy Belt" "Linen Belt" "Long Belt" "Mail Belt" "Ornate Belt" "Rawhide Belt" "Utility Belt" "Wide Belt"
+	BaseType == "Double Belt" "Fine Belt" "Heavy Belt" "Linen Belt" "Long Belt" "Mail Belt" "Ornate Belt" "Rawhide Belt" "Wide Belt"
 	AreaLevel >= 65
 	SetFontSize 40
 
@@ -818,7 +827,7 @@ Show # %D5 $type->endgame->jewellery $tier->beltst2ideallevel
 #	Corrupted False
 #	Rarity Normal Magic
 #	Class == "Belts"
-#	BaseType == "Plate Belt"
+#	BaseType == "Plate Belt" "Utility Belt"
 #	AreaLevel >= 65
 #	SetFontSize 40
 #	SetBackgroundColor 30 0 70 255
@@ -828,7 +837,7 @@ Show # %D5 $type->endgame->jewellery $tier->beltst2ideallevel
 #	Corrupted False
 #	Rarity Normal Magic
 #	Class == "Belts"
-#	BaseType == "Double Belt" "Fine Belt" "Heavy Belt" "Linen Belt" "Long Belt" "Mail Belt" "Ornate Belt" "Rawhide Belt" "Utility Belt" "Wide Belt"
+#	BaseType == "Double Belt" "Fine Belt" "Heavy Belt" "Linen Belt" "Long Belt" "Mail Belt" "Ornate Belt" "Rawhide Belt" "Wide Belt"
 #	AreaLevel >= 65
 #	SetFontSize 38
 
@@ -1072,7 +1081,7 @@ Show # %D6 $type->rr->beltseg $tier->t1
 	ItemLevel >= 82
 	Rarity Rare
 	Class == "Belts"
-	BaseType == "Plate Belt"
+	BaseType == "Plate Belt" "Utility Belt"
 	SetFontSize 42
 	SetBackgroundColor 75 75 0
 	PlayEffect Yellow
@@ -1082,7 +1091,7 @@ Show # %D5 $type->rr->beltseg $tier->t2
 	ItemLevel >= 82
 	Rarity Rare
 	Class == "Belts"
-	BaseType == "Double Belt" "Fine Belt" "Heavy Belt" "Linen Belt" "Long Belt" "Mail Belt" "Ornate Belt" "Rawhide Belt" "Utility Belt" "Wide Belt"
+	BaseType == "Double Belt" "Fine Belt" "Heavy Belt" "Linen Belt" "Long Belt" "Mail Belt" "Ornate Belt" "Rawhide Belt" "Wide Belt"
 	SetFontSize 40
 	SetBackgroundColor 20 20 0 255
 	PlayEffect Yellow
@@ -1099,7 +1108,7 @@ Show # %D5 $type->rr->belts $tier->t1
 	ItemLevel >= 65
 	Rarity Rare
 	Class == "Belts"
-	BaseType == "Plate Belt"
+	BaseType == "Plate Belt" "Utility Belt"
 	SetFontSize 42
 	SetBackgroundColor 75 75 0
 	PlayEffect Yellow
@@ -1109,7 +1118,7 @@ Show # %D5 $type->rr->belts $tier->t1
 #	ItemLevel >= 65
 #	Rarity Rare
 #	Class == "Belts"
-#	BaseType == "Double Belt" "Fine Belt" "Heavy Belt" "Linen Belt" "Long Belt" "Mail Belt" "Ornate Belt" "Rawhide Belt" "Utility Belt" "Wide Belt"
+#	BaseType == "Double Belt" "Fine Belt" "Heavy Belt" "Linen Belt" "Long Belt" "Mail Belt" "Ornate Belt" "Rawhide Belt" "Wide Belt"
 #	SetFontSize 40
 #	SetBackgroundColor 20 20 0 255
 #	PlayEffect Yellow
@@ -1450,7 +1459,7 @@ Hide # %H4 $type->sockets->runes $tier->levelingrunes
 	SetTextColor 220 175 132
 	SetBorderColor 220 175 132
 
-#Show # %H5 $type->sockets->runes $tier->t1
+#Show # %H6 $type->sockets->runes $tier->t1
 #	Class == "Socketable"
 #	SetFontSize 42
 #	SetTextColor 0 0 0 255
@@ -1460,13 +1469,14 @@ Hide # %H4 $type->sockets->runes $tier->levelingrunes
 #	PlayEffect White
 #	MinimapIcon 1 Yellow Circle
 
-Hide # %H4 $type->sockets->runes $tier->t2
+Show # %H5 $type->sockets->runes $tier->t2
 	Class == "Socketable"
 	BaseType == "Iron Rune"
 	SetFontSize 40
 	SetTextColor 240 207 132
 	SetBorderColor 240 207 132
 	SetBackgroundColor 76 51 12
+	PlayEffect Yellow Temp
 
 Hide # %H3 $type->sockets->runes $tier->t3
 	Class == "Socketable"
@@ -1766,6 +1776,13 @@ Hide # %H3 $type->gems->uncut $tier->othersupporteg
 	SetFontSize 35
 	SetTextColor 20 240 240
 	SetBorderColor 20 240 240
+
+# Hider for filterblade
+
+Hide # $type->gems->uncut $tier->exhide
+	BaseType == "Uncut Skill Gem" "Uncut Spirit Gem" "Uncut Support Gem"
+	SetFontSize 18
+	SetBackgroundColor 20 20 0 0
 
 # !! Waypoint c8.gems.others : "Gems - Specific"
 

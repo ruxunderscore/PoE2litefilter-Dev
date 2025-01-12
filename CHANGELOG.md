@@ -7,6 +7,17 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.5.1** - Initial Public Version
+----------------------------------
+
+## SHORT OVERVIEW:
+
+- Removed emerald ring from chancing list
+- Iron Rune tier is hidden on Uber Plus Strict instead of Uber Strict now
+- Added a section to highlight ilvl81+ siphoning and attuned normal wands for crafting, since these are in high demand right now.
+- Fixed multiple dozens of bugs and small improvements for FilterBlade
+
+----------------------------------
 # **VERSION 0.5.0** - Initial Public Version
 ----------------------------------
 
