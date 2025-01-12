@@ -865,7 +865,7 @@ Show # $type->endgame->normalcraft->decorator $tier->normaldecoratorremover
 
 #Show # %D0 $type->lowstrictnessshowlayer $tier->normalmagicendgameany
 #	Rarity Normal Magic
-#	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Staves" "Two Hand Maces" "Wands"
+#	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Charms" "Crossbows" "Foci" "Gloves" "Helmets" "Life Flasks" "Mana Flasks" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Staves" "Two Hand Maces" "Wands"
 #	AreaLevel >= 65
 #	SetFontSize 30
 #	SetBorderColor 0 0 0 0
@@ -874,7 +874,7 @@ Show # $type->endgame->normalcraft->decorator $tier->normaldecoratorremover
 
 Hide # $type->hidelayer $tier->normalmagicendgame
 	Rarity Normal Magic
-	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Staves" "Two Hand Maces" "Wands"
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Charms" "Crossbows" "Foci" "Gloves" "Helmets" "Life Flasks" "Mana Flasks" "One Hand Maces" "Quarterstaves" "Quivers" "Rings" "Sceptres" "Shields" "Staves" "Two Hand Maces" "Wands"
 	AreaLevel >= 65
 	SetFontSize 18
 	SetBorderColor 0 0 0 0
