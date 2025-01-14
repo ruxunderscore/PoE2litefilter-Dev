@@ -7,7 +7,7 @@ This is _NOT_ a hack/mod. It written using the official POE filter domain langua
 
 This is my full filter for PoE2 and a successor to my initial lite-filter.
 
-![image](https://i.ibb.co/CBVZNnJ/Normal.png)
+![image](https://github.com/user-attachments/assets/41f7ab1f-18f7-4283-82f4-12b68cd519bd)
 
 Feature highlights
 
