@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.52.0
+# VERSION:  0.52.0a
 # TYPE:     5-UBER-STRICT
 # STYLE:    DARKMODE
 # AUTHOR:   NeverSink
@@ -1354,13 +1354,13 @@ Show # %D5 $type->rr $tier->t1_top
 #	SetFontSize 40
 #	SetBorderColor 180 180 180
 
-#Show # %D4 $type->rare->salvagable $tier->quality2armorany
-#	Quality >= 10
-#	ItemLevel >= 65
-#	Rarity Rare
-#	Class == "Body Armours" "Boots" "Foci" "Gloves" "Helmets" "Shields"
-#	SetFontSize 40
-#	SetBorderColor 180 180 180
+Show # %D5 $type->rare->salvagable $tier->quality2armorany
+	Quality >= 10
+	ItemLevel >= 65
+	Rarity Rare
+	Class == "Body Armours" "Boots" "Foci" "Gloves" "Helmets" "Shields"
+	SetFontSize 40
+	SetBorderColor 180 180 180
 
 # Single Quality Currencies
 
@@ -1380,7 +1380,7 @@ Show # %D5 $type->rr $tier->t1_top
 #	SetFontSize 35
 #	SetBorderColor 127 127 127
 
-#Show # %D3 $type->rare->salvagable $tier->qualityarmorany
+#Show # %D4 $type->rare->salvagable $tier->qualityarmorany
 #	Quality >= 1
 #	ItemLevel >= 65
 #	Rarity Rare
@@ -2697,7 +2697,7 @@ Show # $type->fragments->generic $tier->b
 	MinimapIcon 1 Yellow Hexagon
 
 Show # $type->fragments->generic $tier->c
-	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Expedition Precursor Tablet" "Overseer's Precursor Tablet"
+	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Expedition Precursor Tablet" "Overseer Precursor Tablet"
 	SetFontSize 45
 	SetTextColor 180 75 225 255
 	SetBorderColor 180 75 225 255
@@ -2721,7 +2721,7 @@ Show # $type->fragments->generic $tier->d
 #	MinimapIcon 2 Grey Hexagon
 
 Hide # $type->fragments->generic $tier->exhide
-	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Expedition Precursor Tablet" "Overseer's Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet"
+	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Expedition Precursor Tablet" "Overseer Precursor Tablet" "Precursor Tablet" "Ritual Precursor Tablet"
 	SetFontSize 18
 	SetBackgroundColor 20 20 0 0
 
@@ -3115,28 +3115,6 @@ Hide # %H0 $type->hidelayer $tier->outdatedlevelflaske
 # [[3300]] Leveling - Life Mana Flasks
 #===============================================================================================================
 # !! Waypoint c20.leveling.flasks.qual : "Leveling - Quality Flasks"
-
-Show # %D5 $type->leveling->flasks->quality $tier->max
-	Quality >= 20
-	Rarity Normal Magic
-	Class == "Charms" "Life Flasks" "Mana Flasks"
-	SetFontSize 40
-	SetBorderColor 180 180 180
-
-#Show # %D4 $type->leveling->flasks->quality $tier->high
-#	Quality >= 14
-#	Rarity Normal Magic
-#	Class == "Charms" "Life Flasks" "Mana Flasks"
-#	SetFontSize 40
-#	SetBorderColor 180 180 180
-
-#Show # %D3 $type->leveling->flasks->quality $tier->any
-#	Quality >= 1
-#	Rarity Normal Magic
-#	Class == "Charms" "Life Flasks" "Mana Flasks"
-#	SetFontSize 40
-#	SetBorderColor 20 140 60
-
 #------------------------------------
 #   [3301] Life flasks
 #------------------------------------

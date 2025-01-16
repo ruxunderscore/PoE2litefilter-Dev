@@ -7,6 +7,24 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 Major thanks to all patreon supports to help us fund the continious development. [Patreon](https://www.patreon.com/Neversink) supporters.
 
 ----------------------------------
+# **VERSION 0.52.0a** - Overseer's Tablets and adjustments
+----------------------------------
+
+## SHORT OVERVIEW:
+
+This patch adresses changes in PoE2 patch 0.1.1 and also adds a bit of finetuning here and there.
+Changed "Overseer's Precursor Tablet" to "Overseer Precursor Tablet"
+
+## CHANGES:
+
+- Changed
+- Economy adjusted the tiering of some catalsts, currency, fragments etc
+- Added the new "Overseer's Precursor Tablet"
+- Reworked flasks and crafting sections slightlx to adjust for the new glassblower salvaging change
+- Slightly retiered rare/crafting bases
+- Slightly adjusted the tiering on some salvaging rules
+
+----------------------------------
 # **VERSION 0.52.0** - Overseer's Tablets and adjustments
 ----------------------------------
 
